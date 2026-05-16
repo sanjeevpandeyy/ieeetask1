@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#e6f0fa] min-h-screen flex flex-col items-center justify-center p-6 md:p-10"
+      className="bg-[#e6f0fa] min-h-screen flex flex-col items-center justify-center p-6 md:p-10 pt-10"
     >
       <div className="max-w-6xl w-full mx-auto flex flex-col items-center">
 
