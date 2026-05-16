@@ -2,7 +2,7 @@ import upcomingEvents from "../../data/upcomingEvents";
 
 export default function UpcomingEvents() {
   return (
-    <section className="px-6 md:px-14 py-10 mt-20">
+    <section className="px-6 md:px-14 py-10 mt-6">
 
       <h2 className="text-4xl font-bold text-blue-900 mb-12">
         Upcoming Events
