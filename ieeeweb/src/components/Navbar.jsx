@@ -20,7 +20,7 @@ export default function Navbar({ setActiveSection, active, setActive }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // 🔥 ACTIVE STYLE: WHITE BG + BLUE TEXT (INVERTED)
+  // ACTIVE STYLE (WHITE BG + BLUE TEXT)
   const btnStyle = (name) =>
     `flex items-center gap-2 px-5 py-3 rounded-2xl
     font-medium transition-all duration-300
@@ -32,11 +32,11 @@ export default function Navbar({ setActiveSection, active, setActive }) {
 
   return (
     <nav
-      className={`relative bg-gradient-to-r from-[#cfd7e6] via-[#dce3f0] to-[#eef2fb]
+      className={`fixed top-0 left-0 w-full z-50
+      bg-gradient-to-r from-[#cfd7e6] via-[#dce3f0] to-[#eef2fb]
       border border-white/40 backdrop-blur-md transition-all duration-300
       ${shadow ? "shadow-xl" : "shadow-md"}`}
     >
-
       <div className="flex flex-row justify-between items-center h-[80px] px-8">
 
         {/* LOGO */}

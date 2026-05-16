@@ -2,7 +2,7 @@ import facultyMembers from "../../data/facultyMembers";
 
 export default function FacultyMembers() {
   return (
-    <section className="bg-[#e6f0fa] w-full p-6 md:p-12 -mt-20">
+    <section className="bg-[#e6f0fa] w-full p-6 md:p-12 ">
 
       {/* TITLE */}
       <div className="text-center mb-16">
