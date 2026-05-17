@@ -35,7 +35,7 @@ export default function Footer() {
       </style>
 
       {/* Left Hanging Lamps */}
-      <div className="absolute top-0 left-0 lamp-animation">
+      <div className="absolute -left-16 top-0 xl:left-0 lamp-animation hidden lg:flex">
         <img
           src="https://ieeergpv.in/image.png"
           className="w-56 md:w-72"
@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       {/* Right Street Lamp */}
-      <div className="absolute bottom-0 right-0">
+      <div className="absolute bottom-0 -right-10 xl:right-0 hidden lg:flex">
         <img
           src="https://ieeergpv.in/lamp3.png"
           className="h-[400px]"

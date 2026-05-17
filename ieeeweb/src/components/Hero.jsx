@@ -92,7 +92,7 @@ export default function Hero({ setActiveSection, setActive }) {
       {/* CONTENT */}
       <div className="absolute top-[100px] left-16 z-20 movement">
 
-        <h2 className="text-white text-[55px] font-extrabold leading-[88px] tracking-tight">
+      <h2 className="text-white text-[40px] md:text-[56px] font-extrabold leading-[60px] md:leading-[88px] tracking-tight">
           IEEE <br />
           RGPV STUDENT <br />
           BRANCH
@@ -100,20 +100,19 @@ export default function Hero({ setActiveSection, setActive }) {
 
         {/* CONTACT BUTTON */}
         <button
-          onClick={() => {
-            setActiveSection("contact"); // show contact page
-            setActive("contact");       // highlight navbar
-          }}
-          className="mt-10 px-8 py-4 rounded-2xl
-          bg-white text-[#2957FF]
-          text-2xl font-semibold
-          shadow-lg
-          hover:bg-[#2957FF]
-          hover:text-white
-          transition-all duration-300"
-        >
-          Contact Us
-        </button>
+  onClick={() => {
+    setActiveSection("contact");
+    setActive("contact");
+  }}
+  className="mt-10 px-8 py-4 rounded-full
+  bg-white text-[#2957FF]
+  text-2xl font-semibold
+  shadow-lg
+  transition-all duration-300
+  hover:scale-105"
+>
+  Contact Us
+</button>
 
       </div>
 
