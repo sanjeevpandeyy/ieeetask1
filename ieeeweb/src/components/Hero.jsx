@@ -90,9 +90,9 @@ export default function Hero({ setActiveSection, setActive }) {
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* CONTENT */}
-      <div className="absolute top-[100px] left-16 z-20 movement">
+      <div className="absolute top-[100px] left-10 md:left-16 z-20 movement">
 
-      <h2 className="text-white text-[40px] md:text-[56px] font-extrabold leading-[60px] md:leading-[88px] tracking-tight">
+        <h2 className="text-white text-[32px] md:text-[56px] font-extrabold leading-[60px] md:leading-[88px] tracking-tight">
           IEEE <br />
           RGPV STUDENT <br />
           BRANCH
@@ -104,12 +104,16 @@ export default function Hero({ setActiveSection, setActive }) {
     setActiveSection("contact");
     setActive("contact");
   }}
-  className="mt-10 px-8 py-4 rounded-full
+  className="md:mt-10 md:px-8 md:py-4 rounded-full
   bg-white text-[#2957FF]
-  text-2xl font-semibold
+  md:text-2xl md:font-semibold
   shadow-lg
   transition-all duration-300
-  hover:scale-105"
+  hover:scale-105
+  text-[16px]
+  mt-20 px-4 py-2 "
+  
+
 >
   Contact Us
 </button>
