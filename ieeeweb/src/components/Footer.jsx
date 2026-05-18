@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">
+        <div className="grid grid-cols-3 gap-16 items-start">
 
           {/* Quick Links */}
           <div>
